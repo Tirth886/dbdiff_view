@@ -1,10 +1,10 @@
-import { Container, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Divider, Chip, Typography, Box } from '@material-ui/core'
-
-import { TableChartOutlined, StorageOutlined } from '@material-ui/icons'
+import { Box, Chip, Container, Divider, Paper, Table, TableBody, TableCell, TableHead, TableRow } from '@material-ui/core';
+import { blue, green, grey, red, yellow } from "@material-ui/core/colors";
+import { StorageOutlined, TableChartOutlined } from '@material-ui/icons';
 import { useEffect, useState } from 'react';
 import { fetchComparition } from './api/index';
 import './App.css';
-import { green, blue, grey, red, yellow } from "@material-ui/core/colors";
+
 
 
 function App() {
